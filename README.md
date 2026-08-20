@@ -5,9 +5,9 @@ One issue I kept running into was **spatial heterogeneity**. Urban observations 
 I therefore experimented with **Geographically Weighted Random Forest (GWRF)**, combining the flexibility of Random Forest with geographically weighted local models. The idea is fairly simple: instead of assuming one relationship for the entire study area, allow the model to learn relationships that vary across space.
 Based on **Wu et al. (2024)** and the spatial modeling techniques discussed in **Thierry (2025)**, I organized the implementation into the three-step workflow below.
 
-**References:**
-Wu, D., Zhang, Y., & Xiang, Q. (2024). Could improving public transport accessibility reduce road traffic carbon dioxide emissions? A simulation-based counterfactual analysis. Journal of Transport Geography, 119, 103970. https://doi.org/10.1016/j.jtrangeo.2024.103970
-Warin, Thierry. 2025. Geospatial Data Science with R: An Introduction. HEC Montréal and Digital, Data and Design (D^3) Institute at Harvard Business School. Published July 22, 2025. https://warin.ca/geospatial/.
+**References**
+* **Wu, D., Zhang, Y., & Xiang, Q.** (2024). Could improving public transport accessibility reduce road traffic carbon dioxide emissions? A simulation-based counterfactual analysis. *Journal of Transport Geography*, 119, 103970. [https://doi.org/10.1016/j.jtrangeo.2024.103970](https://doi.org/10.1016/j.jtrangeo.2024.103970)
+* **Warin, T.** (2025). *Geospatial Data Science with R: An Introduction*. HEC Montréal and Digital, Data and Design (D^3) Institute at Harvard Business School. [https://warin.ca/geospatial/](https://warin.ca/geospatial/)
 
 ---
 
